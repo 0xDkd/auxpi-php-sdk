@@ -1,0 +1,20 @@
+{
+    "name": "aimer\/auxpi",
+    "description": "A auxpi ADK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aimerforreimu",
+            "email": "aimerforreimu@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "hanson/foundation-sdk": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aimer\\Auxpi\\": "src"
+        }
+    }
+}
